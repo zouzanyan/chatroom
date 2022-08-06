@@ -29,7 +29,7 @@ public class client {
             }).start();
 
             String userInput;
-            System.out.println("请输入信息");
+            System.out.print("$");
             while (!(userInput = scanner.nextLine()).equals("exit")) {
                 out.println(userInput);
             }
